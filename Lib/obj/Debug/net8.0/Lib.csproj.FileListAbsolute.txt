@@ -10,3 +10,4 @@ C:\Projetos\Dev\ManagementSystem\Lib\obj\Debug\net8.0\Lib.dll
 C:\Projetos\Dev\ManagementSystem\Lib\obj\Debug\net8.0\refint\Lib.dll
 C:\Projetos\Dev\ManagementSystem\Lib\obj\Debug\net8.0\Lib.pdb
 C:\Projetos\Dev\ManagementSystem\Lib\obj\Debug\net8.0\ref\Lib.dll
+C:\Projetos\Dev\ManagementSystem\Lib\obj\Debug\net8.0\Lib.sourcelink.json

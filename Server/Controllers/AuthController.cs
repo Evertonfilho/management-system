@@ -25,5 +25,13 @@ namespace Server.Controllers
             var result = await userAccountRepository.SignInAsync(user);
             return Ok(result);
         }
+
+        [HttpPost("refresh-token")]
+        public async Task<IActionResult> RefreshTokenAsync(RefreshTokenDto token)
+        {
+            if (token is null) return BadRequest("Model vazia");
+            var result = await userAccountRepository.RefreshTokenAsync(token);
+            return Ok(result);
+        }
     }
 }

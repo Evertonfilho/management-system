@@ -52,7 +52,6 @@ namespace LibServer.Repositories.Implementations
             return new GeneralResponse(true, "Conta criada com sucesso!");
 
         }
-
         public async Task<LoginResponse> SignInAsync(LoginDto user)
         {
             if (user is null) return new LoginResponse(false, "Model vazia.");
@@ -82,6 +81,28 @@ namespace LibServer.Repositories.Implementations
             return new LoginResponse(true, "Login feito com sucesso.", jwtToken, refreshToken);
 
         }
+        public async Task<LoginResponse> RefreshTokenAsync(RefreshTokenDto token)
+        {
+            if (token is null) return new LoginResponse(false, "Model vazia");
+
+            var findToken = await db.RefreshTokenInfos.FirstOrDefaultAsync(x => x.Token!.Equals(token.Token));
+            if(findToken is null) return new LoginResponse(false, "Token inválido.");
+
+            var user = await db.ApplicationUsers.FirstOrDefaultAsync(x => x.Id == findToken.Id);
+            if (user is null) return new LoginResponse(false, "Usuário não existe.");
+
+            var userRole = await FindUserRole(user.Id);
+            var roleName = await FindRoleName(userRole.RoleId);
+            string jwtToken = GenerateToken(user, roleName.Name!);
+            string refreshToken = GenerateRefreshToken();
+
+            var updateRefreshToken = await db.RefreshTokenInfos.FirstOrDefaultAsync(x => x.UserId == user.Id);
+            if (updateRefreshToken is null) return new LoginResponse(false, "Refresh Token não pôde ser gerado porque o usuário não fez login");
+
+            updateRefreshToken.Token = refreshToken;
+            await db.SaveChangesAsync();
+            return new LoginResponse(true, "Refresh Token gerado com sucesso", jwtToken, refreshToken);
+        }
         private string GenerateToken(ApplicationUser user, string role)
         {
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config.Value.Key!));
@@ -103,28 +124,25 @@ namespace LibServer.Repositories.Implementations
                 );
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
-
+        private async Task<UserRole> FindUserRole(int userId)
+        {
+            return await db.UserRoles.FirstOrDefaultAsync(x => x.UserId == userId);
+        }
+        private async Task<SystemRole> FindRoleName(int roleId)
+        {
+            return await db.SystemRoles.FirstOrDefaultAsync(x => x.Id == roleId);
+        }
         private async Task<ApplicationUser> FindUserByEmail(string email) =>
             await db.ApplicationUsers.FirstOrDefaultAsync(u => u.Email!.ToLower()!.Equals(email!.ToLower()));
-
         private static string GenerateRefreshToken()
         {
             return Convert.ToBase64String(RandomNumberGenerator.GetBytes(64));
         }
-
-        private async Task<ApplicationUser> FindUserByEmail(string email) =>
-            await db.ApplicationUsers.FirstOrDefaultAsync(u => u.Email!.ToLower()!.Equals(email!.ToLower()));
-
         private async Task<T> AddToDatabase<T>(T model)
         {
             var result = db.Add(model!);
             await db.SaveChangesAsync();
             return (T)result.Entity;
-        }
-
-        public Task<LoginResponse> RefreshTokenAsync(RefreshTokenDto token)
-        {
-            
         }
     }
 }

@@ -1057,3 +1057,4 @@ C:\Projetos\Dev\ManagementSystem\Client\obj\Debug\net8.0\compressed\6v7nq407ya.g
 C:\Projetos\Dev\ManagementSystem\Client\obj\Debug\net8.0\compressed\jq8h842kg7.gz
 C:\Projetos\Dev\ManagementSystem\Client\obj\Debug\net8.0\compressed\um451yzfz4.gz
 C:\Projetos\Dev\ManagementSystem\Client\obj\Debug\net8.0\compressed\rz24qwsvny.gz
+C:\Projetos\Dev\ManagementSystem\Client\obj\Debug\net8.0\Client.sourcelink.json
