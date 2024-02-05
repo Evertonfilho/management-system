@@ -1,0 +1,17 @@
+C:\Projetos\Dev\ManagementSystem\LibServer\bin\Debug\net8.0\LibServer.deps.json
+C:\Projetos\Dev\ManagementSystem\LibServer\bin\Debug\net8.0\LibServer.runtimeconfig.json
+C:\Projetos\Dev\ManagementSystem\LibServer\bin\Debug\net8.0\LibServer.dll
+C:\Projetos\Dev\ManagementSystem\LibServer\bin\Debug\net8.0\LibServer.pdb
+C:\Projetos\Dev\ManagementSystem\LibServer\bin\Debug\net8.0\Lib.dll
+C:\Projetos\Dev\ManagementSystem\LibServer\bin\Debug\net8.0\Lib.pdb
+C:\Projetos\Dev\ManagementSystem\LibServer\obj\Debug\net8.0\LibServer.csproj.AssemblyReference.cache
+C:\Projetos\Dev\ManagementSystem\LibServer\obj\Debug\net8.0\LibServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\Dev\ManagementSystem\LibServer\obj\Debug\net8.0\LibServer.AssemblyInfoInputs.cache
+C:\Projetos\Dev\ManagementSystem\LibServer\obj\Debug\net8.0\LibServer.AssemblyInfo.cs
+C:\Projetos\Dev\ManagementSystem\LibServer\obj\Debug\net8.0\LibServer.csproj.CoreCompileInputs.cache
+C:\Projetos\Dev\ManagementSystem\LibServer\obj\Debug\net8.0\LibServer.csproj.CopyComplete
+C:\Projetos\Dev\ManagementSystem\LibServer\obj\Debug\net8.0\LibServer.dll
+C:\Projetos\Dev\ManagementSystem\LibServer\obj\Debug\net8.0\refint\LibServer.dll
+C:\Projetos\Dev\ManagementSystem\LibServer\obj\Debug\net8.0\LibServer.pdb
+C:\Projetos\Dev\ManagementSystem\LibServer\obj\Debug\net8.0\LibServer.genruntimeconfig.cache
+C:\Projetos\Dev\ManagementSystem\LibServer\obj\Debug\net8.0\ref\LibServer.dll

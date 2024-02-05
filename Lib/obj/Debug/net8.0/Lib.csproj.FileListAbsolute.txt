@@ -1,0 +1,12 @@
+C:\Projetos\Dev\ManagementSystem\Lib\bin\Debug\net8.0\Lib.deps.json
+C:\Projetos\Dev\ManagementSystem\Lib\bin\Debug\net8.0\Lib.dll
+C:\Projetos\Dev\ManagementSystem\Lib\bin\Debug\net8.0\Lib.pdb
+C:\Projetos\Dev\ManagementSystem\Lib\obj\Debug\net8.0\Lib.csproj.AssemblyReference.cache
+C:\Projetos\Dev\ManagementSystem\Lib\obj\Debug\net8.0\Lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\Dev\ManagementSystem\Lib\obj\Debug\net8.0\Lib.AssemblyInfoInputs.cache
+C:\Projetos\Dev\ManagementSystem\Lib\obj\Debug\net8.0\Lib.AssemblyInfo.cs
+C:\Projetos\Dev\ManagementSystem\Lib\obj\Debug\net8.0\Lib.csproj.CoreCompileInputs.cache
+C:\Projetos\Dev\ManagementSystem\Lib\obj\Debug\net8.0\Lib.dll
+C:\Projetos\Dev\ManagementSystem\Lib\obj\Debug\net8.0\refint\Lib.dll
+C:\Projetos\Dev\ManagementSystem\Lib\obj\Debug\net8.0\Lib.pdb
+C:\Projetos\Dev\ManagementSystem\Lib\obj\Debug\net8.0\ref\Lib.dll

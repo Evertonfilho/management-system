@@ -1,0 +1,11 @@
+C:\Projetos\Dev\ManagementSystem\LibClient\bin\Debug\net8.0\LibClient.deps.json
+C:\Projetos\Dev\ManagementSystem\LibClient\bin\Debug\net8.0\LibClient.dll
+C:\Projetos\Dev\ManagementSystem\LibClient\bin\Debug\net8.0\LibClient.pdb
+C:\Projetos\Dev\ManagementSystem\LibClient\obj\Debug\net8.0\LibClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\Dev\ManagementSystem\LibClient\obj\Debug\net8.0\LibClient.AssemblyInfoInputs.cache
+C:\Projetos\Dev\ManagementSystem\LibClient\obj\Debug\net8.0\LibClient.AssemblyInfo.cs
+C:\Projetos\Dev\ManagementSystem\LibClient\obj\Debug\net8.0\LibClient.csproj.CoreCompileInputs.cache
+C:\Projetos\Dev\ManagementSystem\LibClient\obj\Debug\net8.0\LibClient.dll
+C:\Projetos\Dev\ManagementSystem\LibClient\obj\Debug\net8.0\refint\LibClient.dll
+C:\Projetos\Dev\ManagementSystem\LibClient\obj\Debug\net8.0\LibClient.pdb
+C:\Projetos\Dev\ManagementSystem\LibClient\obj\Debug\net8.0\ref\LibClient.dll
