@@ -1,0 +1,28 @@
+# Arquivos de compilação
+bin/
+obj/
+
+# Arquivos de configuração do Visual Studio
+.vscode/
+*.suo
+*.user
+*.suo
+*.user
+*.suo
+*.user
+*.suo
+*.user
+*.suo
+*.user
+
+# Logs e arquivos temporários
+*.log
+*.config
+
+# Dependências e pacotes NuGet
+packages/
+*.nupkg
+!*.config
+
+
+*.appsettings.json
