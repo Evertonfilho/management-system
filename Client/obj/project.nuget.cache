@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "EgjptABGylV4loPGjGmHFc4swjjeuvbRMVNZj/Pk8C/NgEcv0o6fiO/XypRT1EvZBmF3+zEMsc71dll7QksZcQ==",
+  "dgSpecHash": "0qeWa0P+p+k3K5NbneLCfwCy2G5pMKDjO0FjqXtOZOlfsyx3lxli0nZWRRt5d60L/THZk0ne21RrMk8Aw0sN3A==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\Dev\\ManagementSystem\\Client\\Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\evert\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\evert\\.nuget\\packages\\blazored.localstorage\\4.4.0\\blazored.localstorage.4.4.0.nupkg.sha512",
     "C:\\Users\\evert\\.nuget\\packages\\entityframework\\5.0.0\\entityframework.5.0.0.nupkg.sha512",
     "C:\\Users\\evert\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.0\\microsoft.aspnetcore.authorization.8.0.0.nupkg.sha512",
     "C:\\Users\\evert\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.0\\microsoft.aspnetcore.components.8.0.0.nupkg.sha512",
     "C:\\Users\\evert\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\8.0.0\\microsoft.aspnetcore.components.analyzers.8.0.0.nupkg.sha512",
+    "C:\\Users\\evert\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\8.0.0\\microsoft.aspnetcore.components.authorization.8.0.0.nupkg.sha512",
     "C:\\Users\\evert\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\8.0.0\\microsoft.aspnetcore.components.forms.8.0.0.nupkg.sha512",
     "C:\\Users\\evert\\.nuget\\packages\\microsoft.aspnetcore.components.web\\8.0.0\\microsoft.aspnetcore.components.web.8.0.0.nupkg.sha512",
     "C:\\Users\\evert\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\8.0.0\\microsoft.aspnetcore.components.webassembly.8.0.0.nupkg.sha512",

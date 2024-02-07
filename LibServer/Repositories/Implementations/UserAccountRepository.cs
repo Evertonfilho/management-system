@@ -78,6 +78,17 @@ namespace LibServer.Repositories.Implementations
 
             string jwtToken = GenerateToken(applicationUser, getRoleName!.Name);
             string refreshToken = GenerateRefreshToken();
+
+            var findUser = await db.RefreshTokenInfos.FirstOrDefaultAsync(x => x.UserId == applicationUser.Id);
+            if(findUser is not null)
+            {
+                findUser!.Token = refreshToken;
+                await db.SaveChangesAsync();
+            }
+            else
+            {
+                await AddToDatabase(new RefreshTokenInfo() { Token = refreshToken, UserId = applicationUser.Id });
+            }
             return new LoginResponse(true, "Login feito com sucesso.", jwtToken, refreshToken);
 
         }

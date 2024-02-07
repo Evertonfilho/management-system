@@ -1058,3 +1058,13 @@ C:\Projetos\Dev\ManagementSystem\Client\obj\Debug\net8.0\compressed\jq8h842kg7.g
 C:\Projetos\Dev\ManagementSystem\Client\obj\Debug\net8.0\compressed\um451yzfz4.gz
 C:\Projetos\Dev\ManagementSystem\Client\obj\Debug\net8.0\compressed\rz24qwsvny.gz
 C:\Projetos\Dev\ManagementSystem\Client\obj\Debug\net8.0\Client.sourcelink.json
+C:\Projetos\Dev\ManagementSystem\Client\bin\Debug\net8.0\wwwroot\_framework\Blazored.LocalStorage.wasm
+C:\Projetos\Dev\ManagementSystem\Client\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.wasm
+C:\Projetos\Dev\ManagementSystem\Client\bin\Debug\net8.0\wwwroot\_framework\Blazored.LocalStorage.wasm.gz
+C:\Projetos\Dev\ManagementSystem\Client\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.wasm.gz
+C:\Projetos\Dev\ManagementSystem\Client\bin\Debug\net8.0\Blazored.LocalStorage.dll
+C:\Projetos\Dev\ManagementSystem\Client\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Projetos\Dev\ManagementSystem\Client\obj\Debug\net8.0\webcil\Blazored.LocalStorage.wasm
+C:\Projetos\Dev\ManagementSystem\Client\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Components.Authorization.wasm
+C:\Projetos\Dev\ManagementSystem\Client\obj\Debug\net8.0\compressed\md5ra2b8b1.gz
+C:\Projetos\Dev\ManagementSystem\Client\obj\Debug\net8.0\compressed\r3l1rzgylz.gz
